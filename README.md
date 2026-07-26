@@ -1,4 +1,4 @@
-# Midnight Royal
+# Midnight Royal - v1.0.0
 
 A calm, dark **VS Code and Cursor** theme built around muted royal purple, cool blue, and soft pastel status colours.
 
