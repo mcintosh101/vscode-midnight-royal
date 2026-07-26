@@ -1,0 +1,18 @@
+{
+  "name": "Aurora Desk",
+  "env": "staging",
+  "features": {
+    "semanticSearch": true,
+    "ligatures": true,
+    "midnightRoyal": true
+  },
+  "theme": {
+    "accent": "#7c6bb8",
+    "focus": "#4a8ad4",
+    "surface": "#0b0b0f"
+  },
+  "limits": {
+    "maxRetries": 3,
+    "timeoutMs": 8000
+  }
+}

@@ -1,0 +1,67 @@
+/* Soft surface tokens — mirrors Midnight Royal hierarchy */
+.card {
+  background: #1e1e2e;
+  color: #cdd6f4;
+  border: 1px solid #2f5f9a;
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  max-width: 28rem;
+}
+
+.header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.35rem;
+  color: #dce6f5;
+}
+
+.badge {
+  background: #7c6bb8;
+  color: #0b0b0f;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.meta {
+  color: #6b7bc4;
+  margin: 0.85rem 0 0.35rem;
+}
+
+.legacy {
+  color: #2f5f9a;
+  font-style: italic;
+  margin: 0 0 1.25rem;
+}
+
+.actions {
+  display: flex;
+  gap: 0.65rem;
+}
+
+.actions button {
+  background: #4a8ad4;
+  color: #0b0b0f;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.actions button:hover {
+  background: #6b7bc4;
+}
+
+.danger {
+  background: #f38ba8 !important;
+}
