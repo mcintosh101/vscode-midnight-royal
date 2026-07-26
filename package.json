@@ -1,0 +1,61 @@
+{
+  "name": "midnight-royal",
+  "displayName": "Midnight Royal",
+  "description": "A muted purple-to-blue colour theme for VS Code and Cursor, paired with the Midnight Royal Starship prompt.",
+  "version": "1.0.0",
+  "publisher": "mcintosh101",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "purple",
+    "blue",
+    "midnight",
+    "royal",
+    "starship"
+  ],
+  "galleryBanner": {
+    "color": "#0b0b0f",
+    "theme": "dark"
+  },
+  "extensionDependencies": [
+    "PKief.material-icon-theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Midnight Royal",
+        "uiTheme": "vs-dark",
+        "path": "./themes/midnight-royal-color-theme.json"
+      }
+    ],
+    "configurationDefaults": {
+      "workbench.colorTheme": "Midnight Royal",
+      "workbench.preferredDarkColorTheme": "Midnight Royal",
+      "workbench.iconTheme": "material-icon-theme",
+      "editor.fontFamily": "FiraCode Nerd Font Mono",
+      "editor.fontLigatures": true,
+      "editor.fontSize": 15,
+      "editor.wordWrap": "on",
+      "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
+      "terminal.integrated.fontSize": 14,
+      "debug.console.fontSize": 14,
+      "markdown.preview.fontSize": 14,
+      "scm.inputFontSize": 14
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcintosh101/vscode-midnight-royal"
+  },
+  "bugs": {
+    "url": "https://github.com/mcintosh101/vscode-midnight-royal/issues"
+  },
+  "homepage": "https://github.com/mcintosh101/vscode-midnight-royal#readme"
+}

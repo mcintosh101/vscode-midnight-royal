@@ -1,0 +1,9 @@
+.git/**
+.github/**
+.gitignore
+**/*.vsix
+preview/**
+assets/**
+.vscode/**
+**/.DS_Store
+SCREENSHOTS.md
